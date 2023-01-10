@@ -86,7 +86,6 @@ def get(ports, settings, shared):
       '-I' + source_path + '/raster',
       '-I' + source_path + '/psaux',
       '-I' + source_path + '/psnames',
-      '-I' + source_path + '/truetype',
       '-pthread'
     ]
 
